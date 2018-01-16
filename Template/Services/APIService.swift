@@ -61,8 +61,23 @@ class APIService {
 //            var pokemonName = json[jsonKeys.___.rawValue].stringValue etc
             
             //3) To parse an array of a particular property for one object (e.g. pokemon abilities), it is a bit more complicated. The following parses through a list of pokemon type names for a particular pokemon.  The type name is nested inside types, type, name
-            
 //            let typesArray = json[jsonKeys.types.rawValue].arrayValue.map{$0[jsonKeys.type.rawValue][jsonKeys.name.rawValue].stringValue}
+            
+            //4) In Swift 4, we can do this a lot simpler, by making our model (in this case Channel) conform to the Decodable protocol. The model has to match the JSON format exactly - all items must be included in the model class - see Decodable.Swift in Model group
+            
+//            do {
+//                self.channels = try JSONDecoder().decode([Channel].self, from: data)
+//            } catch let error{
+//                debugPrint(error as Any)
+//            }
+//            print(self.channels)
+//            NotificationCenter.default.post(name: NOTIF_CHANNELS_LOADED, object: nil)
+//            completion(true)
+//        } else {
+//            completion(false)
+//            debugPrint(response.result.error as Any)
+//        }
+//    }
 
 
 

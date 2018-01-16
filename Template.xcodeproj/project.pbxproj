@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00A10831200E2032003E4CDB /* DecodableExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A10830200E2032003E4CDB /* DecodableExample.swift */; };
+		00A10833200E207B003E4CDB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A10832200E207B003E4CDB /* Extensions.swift */; };
 		00B4148B200E00AE00E9A164 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B4148A200E00AE00E9A164 /* AppDelegate.swift */; };
 		00B4148D200E00AE00E9A164 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B4148C200E00AE00E9A164 /* MainVC.swift */; };
 		00B41490200E00AE00E9A164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00B4148E200E00AE00E9A164 /* Main.storyboard */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00A10830200E2032003E4CDB /* DecodableExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodableExample.swift; sourceTree = "<group>"; };
+		00A10832200E207B003E4CDB /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		00B41487200E00AD00E9A164 /* Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Template.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00B4148A200E00AE00E9A164 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00B4148C200E00AE00E9A164 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -103,6 +107,7 @@
 		00B4149E200E00CC00E9A164 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				00A10830200E2032003E4CDB /* DecodableExample.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 		00B414A0200E00EF00E9A164 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				00A10832200E207B003E4CDB /* Extensions.swift */,
 				00B414A1200E010D00E9A164 /* Constants.swift */,
 			);
 			path = Utilities;
@@ -272,7 +278,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				00B4148D200E00AE00E9A164 /* MainVC.swift in Sources */,
+				00A10831200E2032003E4CDB /* DecodableExample.swift in Sources */,
 				00B4148B200E00AE00E9A164 /* AppDelegate.swift in Sources */,
+				00A10833200E207B003E4CDB /* Extensions.swift in Sources */,
 				00B414A6200E01E400E9A164 /* CustomCell.swift in Sources */,
 				00B414A8200E01FD00E9A164 /* TableVC.swift in Sources */,
 				00B414AA200E035600E9A164 /* APIService.swift in Sources */,
