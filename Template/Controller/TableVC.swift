@@ -43,7 +43,7 @@ class TableVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if let cell = tableView.dequeueReusableCell(withIdentifier: CELL_CUSTOM_CELL) as? CustomCell {
+        if let cell = tableView.dequeueReusableCell(withIdentifier: CELL_CUSTOM_CELL, for: indexPath) as? CustomCell {
             
             //Configure cell here
             
