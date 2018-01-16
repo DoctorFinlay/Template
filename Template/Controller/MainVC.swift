@@ -19,8 +19,6 @@ class MainVC: UIViewController {
     
     
     
-    
-    
 //    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 //                if segue.identifier == ”______" {
 //                        let DestViewController : NextVC= segue.destination as! NextVC
